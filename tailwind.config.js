@@ -32,6 +32,14 @@ module.exports = {
         '.bg-skills': {
           'background-image' : 'url(/bgSkills.svg)',
           'background-size' : 'cover',
+        },
+        '.bg-projects': {
+          'background-image' : 'url(/bgProjects.png)',
+          'background-size' : 'cover',
+        },
+        '.bg-contact': {
+          'background-image' : 'url(/bgContact.png)',
+          'background-size' : 'cover',
         }
       }
       addUtilities(utilities)
