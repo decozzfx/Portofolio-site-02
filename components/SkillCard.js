@@ -3,8 +3,8 @@ import classNames from 'classnames'
 
 const SkillCard = ({img, skill, level, imgClassName}) => {
     return (
-        <div className="w-4/12 px-4">
-            <div className="bg-gray-600 rounded-full shadow-xl flex mt-12 items-center">
+        <div className="flex md:w-4/12 w-full px-4">
+            <div className="bg-gray-600 rounded-full w-full shadow-xl flex mt-12 -mx-4 items-center">
               <img src={img} className={classNames('p-2 ', imgClassName)} />
               <div className="mt-2 mr-10 text-center w-full">
                 <h4 className='text-lg font-semibold '>{skill}</h4>
