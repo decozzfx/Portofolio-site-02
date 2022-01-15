@@ -6,7 +6,7 @@ import Title from './Title'
 const Homepage = () => {
     return (
       <article>
-          <div className="flex md:flex-row flex-col ">
+          <div className="flex md:flex-row flex-col">
             <div className="md:w-6/12">
               <h2 className='md:text-4xl text-2xl md:mt-20 font-thin'>Hi, my name is</h2>
               <Title>Moch Fathurrozi</Title>
@@ -15,7 +15,7 @@ const Homepage = () => {
                 <Link href='/overview'>
                 <a className='hover:font-semibold items-center'>
                 Go To Overview
-                <img src="/arrow-right-circle.svg" className='ml-2 inline-block' />
+                <img src="/arrow-right-circle.svg" className='ml-2 inline-block ' />
                 </a>
                 </Link>
               </div>              

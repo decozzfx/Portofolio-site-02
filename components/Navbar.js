@@ -24,9 +24,9 @@ const Navbar = () => {
             <div className="w-6/12 lg:block hidden">
               <Nav dir='horizontal' />
             </div>
-            <div className="w-3/12  text-center md:text-right md:mr-10 md:block hidden ">
+            <div className="w-3/12 flex-row-reverse  md:mr-10 md:inline-flex hidden ">
               <Link href='/contact'>
-                <a className='py-3 px-12 bg-bgBtn1 rounded-lg text-lg hover:bg-bgBtnHover1'>
+                <a className='py-3 px-12 bg-bgBtn1 rounded-lg text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-120 hover:bg-indigo-500 duration-300'>
                   Hire Me
                 </a>
               </Link>
