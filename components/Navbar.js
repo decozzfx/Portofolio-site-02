@@ -2,9 +2,12 @@ import classNames from 'classnames'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Nav from './Nav'
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
   const [offCanvas, setOffCanvas] = useState(false)
+  const router = useRouter()
+
     return (
         <nav className='py-10 mx-auto'>
           <div className="flex items-center">
@@ -17,7 +20,7 @@ const Navbar = () => {
               <Link href="/">
                 <a className='flex items-center justify-center '>
                   <div className="bg-bgLogo py-2 px-2 h-10 w-10 text-2xl mr-3 items-center justify-center flex rounded-lg text-black font-bold">D</div>
-                  <h2 className='text-xl uppercase'>Decoz</h2>
+                  <h2 className={`text-xl uppercase ${router.pathname == '/' ? 'font-bold text-white' : ''} `}>Decoz</h2>
                 </a>
               </Link>
             </div>
