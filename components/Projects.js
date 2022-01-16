@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="lg:w-5/12 md:mb-10">
         <Title>Projects</Title>
         <Desc>
-          in this page i will show the projects that i've build and develop when
+          In this page i will show the projects that i've build and develop when
           iam learning about web development, all project build with react js
           and next js with responsive web feature
         </Desc>
