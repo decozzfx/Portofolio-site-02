@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <div className="ml-4">
               <h3 className="text-white/60">Phone</h3>
-              <p className="md:text-lg font-bold">+62 895 3669 23820</p>
+              <p className="md:text-lg font-semibold">+62 895 3669 23820</p>
             </div>
           </div>
           <div className="flex mt-10">
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="ml-4">
               <h3 className="text-white/60">Email</h3>
-              <p className="md:text-lg font-bold">decozzfx@gmail.com</p>
+              <p className="md:text-lg font-semibold">decozzfx@gmail.com</p>
             </div>
           </div>
         </div>
