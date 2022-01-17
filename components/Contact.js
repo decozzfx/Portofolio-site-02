@@ -88,19 +88,19 @@ const Contact = () => {
       <form onSubmit={handleSubmit} className="rounded-lg shadow-xl flex flex-col px-8 py-8 pb-10 bg-white mt-24 w-80">
       <h1 className="text-2xl font-bold text-gray-600">Send a message</h1>
 
-      <label className="text-gray-500 font-light mt-8 dark:text-gray-50">Full name<span className="text-red-500 dark:text-gray-50">*</span></label>
+      <label className="text-gray-500 font-light mt-8 ">Full name<span className="text-red-500 ">*</span></label>
       <input type="text" name="fullname" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" value={fullname}
             onChange={(e) => {setFullname(e.target.value)}} />
 
-      <label className="text-gray-500 font-light mt-4 dark:text-gray-50">E-mail<span className="text-red-500">*</span></label>
+      <label className="text-gray-500 font-light mt-4 ">E-mail<span className="text-red-500">*</span></label>
       <input type="email" name="email" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" value={email}
             onChange={(e) => {setEmail(e.target.value)}}/>
 
-      <label  className="text-gray-500 font-light mt-4 dark:text-gray-50">Subject<span className="text-red-500">*</span></label>
+      <label  className="text-gray-500 font-light mt-4 ">Subject<span className="text-red-500">*</span></label>
       <input type="text" name="subject" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" value={subject}
             onChange={(e) => {setSubject(e.target.value)}} />
 
-      <label className="text-gray-500 font-light mt-4 dark:text-gray-50">Message<span className="text-red-500">*</span></label>
+      <label className="text-gray-500 font-light mt-4 ">Message<span className="text-red-500">*</span></label>
       <textarea name="message" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" value={message}
             onChange={(e) => {setMessage(e.target.value)}} ></textarea>
       <div className="flex flex-row items-center justify-start">
