@@ -5,7 +5,7 @@ import Title from "./Title";
 import axios from "axios";
 
 
-const Contact = () => {
+export function Contact(){
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -194,4 +194,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;
