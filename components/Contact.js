@@ -5,7 +5,7 @@ import Title from "./Title";
 import axios from "axios";
 
 
-export function Contact(){
+export default function Contact(){
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
