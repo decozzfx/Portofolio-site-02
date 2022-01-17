@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="md:w-6/12 flex items-center justify-center">
-      <form onSubmit={handleSubmit} className="rounded-lg shadow-xl flex flex-col px-8 py-8 pb-10 bg-white dark:bg-blue-500 mt-24">
+      <form onSubmit={handleSubmit} className="rounded-lg shadow-xl flex flex-col px-8 py-8 pb-10 bg-white mt-24 w-80">
       <h1 className="text-2xl font-bold text-gray-600">Send a message</h1>
 
       <label className="text-gray-500 font-light mt-8 dark:text-gray-50">Full name<span className="text-red-500 dark:text-gray-50">*</span></label>
@@ -114,8 +114,8 @@ const Contact = () => {
     </form>
       </div>
     </div>
-      <div className="flex flex-col justify-center text-center w-1/2 pl-20 -mt-72 ">
-      <div className="p-6 lg:w-96 w-60 bg-gray-500/20 rounded-tl-3xl ">
+      <div className="flex flex-col justify-center text-center w-1/2 md:pl-14 md:-mt-72 md:-ml-10 lg:pl-20 sm:pl-10 xs:pl-0 ">
+      <div className="p-6 lg:w-96 w-60 bg-gray-500/20 md:rounded-tl-3xl rounded-tr-3xl ">
             <h1 className="md:text-md text-sm">"My contact is always open to you, i will be so happy to get message from you"</h1>
         </div>
         <div className="flex justify-center items-center p-3 w-28 h-28 lg:ml-80 md:ml-52 mt-2 bg-gray-500/10 rounded-full">
@@ -123,7 +123,7 @@ const Contact = () => {
             <img src="/potrait-2-1.png" className="rounded-full w-14 h-14 bg-white" />
           </div>
         </div>
-          <div className=" mt-2 lg:ml-48 md:ml-20 w-40  bg-gray-500/20 rounded-bl-3xl">
+          <div className=" mt-2 lg:ml-48 md:ml-20 w-40  bg-gray-500/20 md:rounded-bl-3xl rounded-br-3xl">
             <h4 className="p-3 text-xs">"Especially from my GF, Sab***a 🥰😆"</h4>
           </div>
       </div>
