@@ -47,6 +47,14 @@ const Projects = () => {
             desc="simple blog website with api"
           />
         </div>
+        <div className="md:w-6/12 mt-5">
+          <ProjectCard
+            link="https://example-travel-advisor-app.netlify.app/"
+            img="/travel-advisor.png"
+            title="Travel Advisor Website"
+            desc="simple travel advisor website with rapid api"
+          />
+        </div>
       </div>
     </div>
   );
