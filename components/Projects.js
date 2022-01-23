@@ -55,6 +55,14 @@ const Projects = () => {
             desc="simple travel advisor website with rapid api"
           />
         </div>
+        <div className="md:w-6/12 mt-5">
+          <ProjectCard
+            link="https://cryptoticks.netlify.app/"
+            img="/cryptoticks.png"
+            title="Cryptocurrencies Website"
+            desc="simple cryptocurrencies website with redux and rapid api"
+          />
+        </div>
       </div>
     </div>
   );
