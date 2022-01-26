@@ -25,6 +25,14 @@ const Projects = () => {
         </div>
         <div className="md:w-6/12 mt-5">
           <ProjectCard
+            link="https://cotton-beauty-beach-gsq5x1c5z-decozzfx.vercel.app"
+            img="/real-estate-app.png"
+            title="Cotton Beauty Beach"
+            desc="searching state for sale or rent app"
+          />
+        </div>
+        <div className="md:w-6/12 mt-5">
+          <ProjectCard
             link="https://slicing-landing-page-02-portopolio.netlify.app/"
             img="/porto-1.png"
             title="Portofolio"
@@ -41,14 +49,6 @@ const Projects = () => {
         </div>
         <div className="md:w-6/12 mt-5">
           <ProjectCard
-            link="https://mini-blog-project-decozzfx.netlify.app/"
-            img="/web-blog-api.png"
-            title="Blog Website"
-            desc="simple blog website with api"
-          />
-        </div>
-        <div className="md:w-6/12 mt-5">
-          <ProjectCard
             link="https://example-travel-advisor-app.netlify.app/"
             img="/travel-advisor.png"
             title="Travel Advisor Website"
@@ -61,6 +61,14 @@ const Projects = () => {
             img="/cryptoticks.png"
             title="Cryptocurrencies Website"
             desc="simple cryptocurrencies website with redux and rapid api"
+          />
+        </div>
+        <div className="md:w-6/12 mt-5">
+          <ProjectCard
+            link="https://mini-blog-project-decozzfx.netlify.app/"
+            img="/web-blog-api.png"
+            title="Blog Website"
+            desc="simple blog website with api"
           />
         </div>
       </div>

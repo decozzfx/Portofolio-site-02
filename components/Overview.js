@@ -14,7 +14,7 @@ const Overview = () => {
 					<ul className='mt-8'>
 						<li className='mt-4'>
 						<img src="/bullet.svg" className='inline-block mr-4'/>
-						2018 - now : Working at CV. Semulur as Assistant Procurement
+						2018 - now : Working at UD. Semulur as Assistant Procurement
 						</li>
 						<li className='mt-4'>
 						<img src="/bullet.svg" className='inline-block mr-4'/>
