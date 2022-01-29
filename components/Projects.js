@@ -25,6 +25,14 @@ const Projects = () => {
         </div>
         <div className="md:w-6/12 mt-5">
           <ProjectCard
+            link="https://gulugulu-search.netlify.app/"
+            img="/gulugulu-google-clone.png"
+            title="Gulugulu"
+            desc="Google search engine clone app"
+          />
+        </div>
+        <div className="md:w-6/12 mt-5">
+          <ProjectCard
             link="https://cotton-beauty-beach-gsq5x1c5z-decozzfx.vercel.app"
             img="/real-estate-app.png"
             title="Cotton Beauty Beach"
